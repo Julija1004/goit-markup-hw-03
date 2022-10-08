@@ -337,7 +337,7 @@ color: var(--main-color-fomt);
         background-color: var(--main-dark);
         padding-top: 60px;
         padding-bottom: 60px;
-        margin-top: 94px;
+        
      }
      .main-footer__address{
         display: flex;
@@ -458,6 +458,7 @@ color: var(--secondary-color);
 .portfolio-section-one__cards{
     flex-wrap: wrap;
     gap: 30px;
+    padding-bottom: 94px;
 }
 
 .portfolio-section-one__card{
