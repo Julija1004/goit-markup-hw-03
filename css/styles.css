@@ -197,7 +197,7 @@ margin-left: auto;
 
 /*header*/
 
-.header-styles{
+.header {
     padding-top: 24px;
     padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
@@ -455,13 +455,14 @@ color: var(--secondary-color);
 .portfolio-section-one__buttons li:last-child {
     margin: 0;
 }
-.portfolio-section-one__cards{
+.portfolio-projects{
     flex-wrap: wrap;
     gap: 30px;
     padding-bottom: 94px;
+    display: flex;
 }
 
-.portfolio-section-one__card{
+.portfolio-project-item {
     line-height: 1.88;
     color: #757575;
     padding-bottom: 0;
@@ -473,3 +474,15 @@ color: var(--secondary-color);
     border-bottom: 1px solid #EEEEEE;
     padding: 20px 24px;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
